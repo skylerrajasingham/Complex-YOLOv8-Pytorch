@@ -77,7 +77,8 @@ def parse_test_configs():
     ####################################################################
     ##############Dataset, Checkpoints, and results dir configs#########
     ####################################################################
-    configs.working_dir = '../'
+    configs.working_dir = '/content/gdrive/MyDrive/School/researchProject/Complex-YOLOv8-Pytorch/'
+
     configs.dataset_dir = os.path.join(configs.working_dir, 'dataset', 'kitti')
 
     if configs.save_test_output:
